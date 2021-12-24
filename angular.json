@@ -1,5 +1,8 @@
 {
   "$schema": "./node_modules/@angular/cli/lib/config/schema.json",
+  "cli": {
+    "analytics": "4a46a014-92ae-4ec3-9fcc-ee2dbaafc15d"
+  },
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
@@ -66,6 +69,10 @@
         },
         "serve": {
           "builder": "@angular-devkit/build-angular:dev-server",
+          "options": {
+            "browserTarget": "angular-nodejs-example:build",
+            "proxyConfig": "proxy.conf.json"
+          },
           "configurations": {
             "production": {
               "browserTarget": "VAC-valorant:build:production"

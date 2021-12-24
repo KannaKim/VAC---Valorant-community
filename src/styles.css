@@ -1,1 +1,73 @@
 /* You can add global styles to this file, and also import other style files */
+
+html{
+    min-height: 100%;
+    background-image:url("/api/image/backgroundImg.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+.NgxEditor__MenuBar{
+    background-color: transparent !important;   /* to override background: white */
+}
+.NgxEditor{
+    min-height: 500px;
+    background: transparent !important;    /* to override background: white */
+}
+p{
+    font-size: 25px;
+}
+.comment_widget{
+    position: absolute;
+    /* top: calc(941px + 20px);
+    left: calc(233px); */
+    width: 350px;
+    
+    background-color: white;
+    border: 1px solid #707070;
+    
+    display: flex;
+    align-items: center;
+}
+.comment_widget input{
+    border: none;
+    outline: none;
+    width: 95%;
+}
+.comment_widget .fa-trash-alt{
+    font-size: 1.5rem;
+    color: #FF3636;
+    padding: 5px 8px 5px 8px;
+}
+.comment_widget .fa-edit{
+    font-size: 1.5rem;
+    color: #008eb9;
+    padding: 5px 8px 5px 8px;
+}
+.comment_widget .fa-check{
+    font-size: 1.5rem;
+    padding-right: 10px;
+    color: #39FF3F;
+}
+.comment_editing_field{
+    width: 600px;
+    height: 100px;
+    border: none;
+    outline: none;
+    border: 1px solid #707070;
+    resize: none;
+
+    margin: 15px 10px 10px 0px;
+}
+.editing_field_wrapper{
+    display: flex;
+}
+.editing_field_wrapper .fa-edit{
+    align-self: flex-end;
+
+    margin-bottom: 10px;
+
+    font-size: 1.8rem;
+    color: #008eb9;
+
+}
