@@ -7,7 +7,7 @@
 ![1](https://imgur.com/T7ZJmaJ.jpg)
 
 ### ...and it will be posted on x sec/min/hour/days/years ago format 
-![4](https://imgur.com/IiBDPWl.jpg)
+![4](https://imgur.com/0J41FpK.jpg)
 
 ### you can write comments
 ![5](https://imgur.com/68FnnRM.jpg)
