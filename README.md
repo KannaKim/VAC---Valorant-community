@@ -1,4 +1,6 @@
 # this is a simple website I designed for CRUD operation  
+> I used mysql / nodejs / angular in the process 
+
 
 ## website preview:
 ### you can write stuff in various style of formatting 
