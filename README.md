@@ -1,5 +1,5 @@
 # this is a simple website I designed for CRUD operation  
-> I used mysql / nodejs / angular in the process 
+> I used mysql / nodejs & expressjs / angular in the process 
 
 
 ## website preview:
